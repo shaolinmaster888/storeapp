@@ -1,6 +1,6 @@
 # <u>StoreApp Terminal Application</u>
 
-***Submitted by : Jose Linsao***
+***Submitted by : JLinsao***
 
 
 
@@ -24,7 +24,7 @@ User Interaction 1 - Describe
 
 ## <u>High Level Process Flow</u>
 
-![](/home/jolene88/Projects/level-one/terminal-app/StoreApp/Documents/StoreApp_HighLevelProcessFlow.PNG)
+![](/home/jolene88/Projects/level-one/terminal-app/StoreApp/docs/StoreApp_HighLevelProcessFlow_v2.PNG)
 
 
 
@@ -48,8 +48,19 @@ User Interaction 1 - Describe
 
 List all functions
 
-1. Function 1 - Reference to the control flow - Purpose
-2. Function n - Reference to the control flow - Purpose
+| Function Ref | Function Name      | Function Description                | Process Ref |
+| ------------ | ------------------ | ----------------------------------- | ----------- |
+| F1.1         | scrape_product_det | Scrape product details from webpage | P1.0        |
+| F2.1         | dict_to_json       | Convert dictionary to json file     |             |
+| F2.2         | list_to_json       | Convert list to json file           |             |
+| F2.3         | tuple_to_json      | Convert tuple to json file          |             |
+| F2.4         | json_to_couchdb    | Import json file to CouchDB         |             |
+| F6           |                    |                                     |             |
+| F7           |                    |                                     |             |
+| F8           |                    |                                     |             |
+| F9           |                    |                                     |             |
+
+
 
 ### Import Python Libraries
 
@@ -57,6 +68,8 @@ List all python import and purpose in relation to the app functions
 
 1. Numpy- for mathematical computation
 2. Import 2 - purpose
+
+
 
 
 
